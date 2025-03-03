@@ -66,6 +66,12 @@ button:hover {
 
 .featureSection img {
     cursor: pointer;
+    transition: transform 0.25s ease;
+    border-radius: 20px;
+}
+
+.featureSection img:hover {
+    transform: scale(1.1);
 }
 
 .footer {
