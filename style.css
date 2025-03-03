@@ -5,19 +5,27 @@
 }
 
 body {
-    background-color: #141414;
+    background-color: #0d0e11;
     color: white;
     line-height: 1.6;
 }
 
-h {
+#title {
     font-size: 2.5rem;
-    padding-top: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
     font-family: 'Arial';
 }
 
+#feature {
+    font-size: 2.5rem;
+    padding-top: 50px;
+    font-family: 'Arial'; 
+    text-align: center;
+}
+
 button {
-    background-color: #e50914;
+    background-color: #7009e5;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -31,7 +39,7 @@ button {
 
 
 button:hover {
-    background-color: #770309;
+    background-color: #3d057e;
 }
 
 .heroSection {
@@ -49,7 +57,6 @@ button:hover {
 
 }
 
-/* Feature Section (like a row of movie posters) */
 .featureSection {
     display: flex;
     justify-content: center;
@@ -64,14 +71,14 @@ button:hover {
 .footer {
     background-color: #050505;
     color: #757575;
-    padding: 20px;
+    padding: 20px;  
     text-align: center;
     margin-top: 50px;
     font-family: 'Arial';
 }
 
 .footer a {
-    color: #e50914;
+    color: #7009e5;
     text-decoration: none;
 }
 
@@ -82,18 +89,4 @@ button:hover {
 .footer p {
     margin-top: 10px;
     font-size: 0.9rem;
-}
-
-/* Responsiveness for smaller screens */
-@media screen and (max-width: 768px) {
-    .featureSection {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .featureSection img {
-        width: 100%;
-        max-width: 300px;
-        margin-bottom: 20px;
-    }
 }
